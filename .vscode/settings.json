@@ -11,7 +11,8 @@
     "java.server.launchMode": "Standard",
     "java.dependency.packagePresentation": "flat",
     "java.project.sourcePaths": [
-        "src"
+        "src",
+        ""
     ],
     "redhat.telemetry.enabled": false,
     "git.autofetch": true,
