@@ -1,2 +1,2 @@
-Hello from first input!
 1
+Hello from first input!

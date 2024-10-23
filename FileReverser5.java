@@ -22,7 +22,7 @@ public class FileReverser5 {
         
         Collections.reverse(lines);
         
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("/workspaces/w6-lab-i-o-kasiaskrz/resources/output.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("/workspaces/w6-lab-i-o-kasiaskrz/resources/reverse.txt"))) {
             for (String line : lines) {
                 writer.write(line);
                 writer.newLine();
